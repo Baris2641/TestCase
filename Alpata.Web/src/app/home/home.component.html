@@ -1,0 +1,40 @@
+<div class="form-container">
+    <form [formGroup]="meetingForm" (ngSubmit)="submitMeeting()">
+      <mat-form-field appearance="outline">
+        <mat-label>Toplantı Adı</mat-label>
+        <input matInput formControlName="title" required>
+        <mat-error *ngIf="meetingForm.get('title')?.hasError('required')">Toplantı adı gerekli</mat-error>
+      </mat-form-field>
+  
+      <mat-form-field appearance="outline">
+        <mat-label>Toplantı Günü</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="date" placeholder="Tarih seçiniz" required>
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+        <mat-error *ngIf="meetingForm.get('date')?.hasError('required')">Toplantı günü gerekli</mat-error>
+      </mat-form-field>
+  
+      <mat-form-field appearance="outline">
+        <mat-label>Başlangıç Saati</mat-label>
+        <input matInput formControlName="startTime" [ngxTimepicker]="startTimePicker" readonly placeholder="Başlangıç saati seçiniz" required>
+        <ngx-material-timepicker #startTimePicker></ngx-material-timepicker>
+        <mat-error *ngIf="meetingForm.get('startTime')?.hasError('required')">Başlangıç saati gerekli</mat-error>
+      </mat-form-field>
+  
+      <mat-form-field appearance="outline">
+        <mat-label>Bitiş Saati</mat-label>
+        <input matInput formControlName="endTime" [ngxTimepicker]="endTimePicker" readonly placeholder="Bitiş saati seçiniz" required>
+        <ngx-material-timepicker #endTimePicker></ngx-material-timepicker>
+        <mat-error *ngIf="meetingForm.get('endTime')?.hasError('required')">Bitiş saati gerekli</mat-error>
+      </mat-form-field>
+  
+      <mat-form-field appearance="outline">
+        <mat-label>Açıklama</mat-label>
+        <textarea matInput formControlName="description" placeholder="Açıklama giriniz"></textarea>
+        <mat-error *ngIf="meetingForm.get('description')?.hasError('maxlength')">Açıklama en fazla 500 karakter olabilir</mat-error>
+      </mat-form-field>
+  
+      <button mat-raised-button color="primary" type="submit" [disabled]="meetingForm.invalid">Oluştur</button>
+    </form>
+  </div>
+  

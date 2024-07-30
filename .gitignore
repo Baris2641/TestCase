@@ -1,0 +1,10 @@
+# Node modules
+node_modules/
+dist/
+
+# Other files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates

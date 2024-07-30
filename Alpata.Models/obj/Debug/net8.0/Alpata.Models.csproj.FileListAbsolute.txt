@@ -1,0 +1,4 @@
+C:\Users\baris\OneDrive\Masaüstü\Alpata\Alpata.Models\obj\Debug\net8.0\Alpata.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\baris\OneDrive\Masaüstü\Alpata\Alpata.Models\obj\Debug\net8.0\Alpata.Models.AssemblyInfoInputs.cache
+C:\Users\baris\OneDrive\Masaüstü\Alpata\Alpata.Models\obj\Debug\net8.0\Alpata.Models.AssemblyInfo.cs
+C:\Users\baris\OneDrive\Masaüstü\Alpata\Alpata.Models\obj\Debug\net8.0\Alpata.Models.csproj.CoreCompileInputs.cache

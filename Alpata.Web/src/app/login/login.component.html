@@ -1,0 +1,25 @@
+<div class="login-container">
+  <div class="login-box">
+    <h2>Hoşgeldiniz!</h2>
+    <form [formGroup]="loginForm" (ngSubmit)="submit()">
+      <mat-form-field appearance="fill">
+        <mat-label>Email Adresi</mat-label>
+        <input matInput formControlName="email" type="email" required>
+        <mat-icon matSuffix>email</mat-icon>
+        <mat-error *ngIf="loginForm.get('email')?.hasError('required')">Email boş bırakılamaz</mat-error>
+        <mat-error *ngIf="loginForm.get('email')?.hasError('email')">Lütfen geçerli bir email giriniz</mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Şifre</mat-label>
+        <input matInput formControlName="password" type="password" required>
+        <mat-icon matSuffix>lock</mat-icon>
+        <mat-error *ngIf="loginForm.get('password')?.hasError('required')">Şifre boş bırakılamaz</mat-error>
+      </mat-form-field>
+      <div class="remember-forgot">
+        <mat-checkbox>Şifreyi Hatırla</mat-checkbox>
+        <a href="#">Şifremi unuttum?</a>
+      </div>
+      <button mat-raised-button color="primary" type="submit" [disabled]="loginForm.invalid">Giriş Yap</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+C:\Users\baris\OneDrive\Masaüstü\Alpata\Alpata.Models\bin\Debug\net7.0\Alpata.Models.deps.json
+C:\Users\baris\OneDrive\Masaüstü\Alpata\Alpata.Models\bin\Debug\net7.0\Alpata.Models.dll
+C:\Users\baris\OneDrive\Masaüstü\Alpata\Alpata.Models\bin\Debug\net7.0\Alpata.Models.pdb
+C:\Users\baris\OneDrive\Masaüstü\Alpata\Alpata.Models\obj\Debug\net7.0\Alpata.Models.csproj.AssemblyReference.cache
+C:\Users\baris\OneDrive\Masaüstü\Alpata\Alpata.Models\obj\Debug\net7.0\Alpata.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\baris\OneDrive\Masaüstü\Alpata\Alpata.Models\obj\Debug\net7.0\Alpata.Models.AssemblyInfoInputs.cache
+C:\Users\baris\OneDrive\Masaüstü\Alpata\Alpata.Models\obj\Debug\net7.0\Alpata.Models.AssemblyInfo.cs
+C:\Users\baris\OneDrive\Masaüstü\Alpata\Alpata.Models\obj\Debug\net7.0\Alpata.Models.csproj.CoreCompileInputs.cache
+C:\Users\baris\OneDrive\Masaüstü\Alpata\Alpata.Models\obj\Debug\net7.0\Alpata.Models.dll
+C:\Users\baris\OneDrive\Masaüstü\Alpata\Alpata.Models\obj\Debug\net7.0\refint\Alpata.Models.dll
+C:\Users\baris\OneDrive\Masaüstü\Alpata\Alpata.Models\obj\Debug\net7.0\Alpata.Models.pdb
+C:\Users\baris\OneDrive\Masaüstü\Alpata\Alpata.Models\obj\Debug\net7.0\ref\Alpata.Models.dll

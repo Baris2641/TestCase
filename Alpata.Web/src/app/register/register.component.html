@@ -1,0 +1,36 @@
+<div class="form-container">
+  <h2>Kayıt Ol</h2>
+  <form [formGroup]="registerForm" (ngSubmit)="submit()">
+    <mat-form-field appearance="outline">
+      <mat-label>İsim</mat-label>
+      <input matInput formControlName="firstName" placeholder="İsminizi giriniz">
+      <mat-icon matSuffix>person</mat-icon>
+      <mat-error *ngIf="registerForm.get('firstName')?.hasError('required')">İsim gerekli</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Soyisim</mat-label>
+      <input matInput formControlName="lastName" placeholder="Soyisminizi giriniz">
+      <mat-icon matSuffix>person</mat-icon>
+      <mat-error *ngIf="registerForm.get('lastName')?.hasError('required')">Soyisim gerekli</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Email</mat-label>
+      <input matInput formControlName="email" placeholder="Email adresinizi giriniz">
+      <mat-icon matSuffix>email</mat-icon>
+      <mat-error *ngIf="registerForm.get('email')?.hasError('required')">Email gerekli</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Telefon</mat-label>
+      <input matInput formControlName="phone" placeholder="Telefon numaranızı giriniz">
+      <mat-icon matSuffix>phone</mat-icon>
+      <mat-error *ngIf="registerForm.get('phone')?.hasError('required')">Telefon gerekli</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Şifre</mat-label>
+      <input matInput formControlName="password" type="password" placeholder="Şifrenizi giriniz">
+      <mat-icon matSuffix>lock</mat-icon>
+      <mat-error *ngIf="registerForm.get('password')?.hasError('required')">Şifre gerekli</mat-error>
+    </mat-form-field>
+    <button mat-raised-button color="primary" type="submit" [disabled]="registerForm.invalid">Kayıt Ol</button>
+  </form>
+</div>

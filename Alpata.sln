@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alpata.Models", "Alpata.Models\Alpata.Models.csproj", "{DF3CA9E5-DB45-4876-A934-D384461B290B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alpata.Context", "Alpata.Context\Alpata.Context.csproj", "{470AC8BE-2362-4F88-9977-CDED96CEC106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alpata.API", "Alpata.API\Alpata.API.csproj", "{F8631771-3E62-4761-84D7-55BB1CC955B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF3CA9E5-DB45-4876-A934-D384461B290B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3CA9E5-DB45-4876-A934-D384461B290B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3CA9E5-DB45-4876-A934-D384461B290B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3CA9E5-DB45-4876-A934-D384461B290B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{470AC8BE-2362-4F88-9977-CDED96CEC106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{470AC8BE-2362-4F88-9977-CDED96CEC106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{470AC8BE-2362-4F88-9977-CDED96CEC106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{470AC8BE-2362-4F88-9977-CDED96CEC106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8631771-3E62-4761-84D7-55BB1CC955B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8631771-3E62-4761-84D7-55BB1CC955B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8631771-3E62-4761-84D7-55BB1CC955B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8631771-3E62-4761-84D7-55BB1CC955B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
